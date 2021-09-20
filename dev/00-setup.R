@@ -1,4 +1,5 @@
-install.packages(c("tidyverse", "remotes"), dependencies = TRUE)
+install.packages(c("tidyverse", "remotes", "writexl"),
+                 dependencies = TRUE)
 remotes::install_github("higgi13425/medicaldata")
 
 renv::status()
